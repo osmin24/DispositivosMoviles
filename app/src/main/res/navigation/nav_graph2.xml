@@ -11,6 +11,14 @@
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first2">
 
+        <action
+            android:id="@+id/action_First2Fragment_to_first3Fragment"
+            app:destination="@id/first3Fragment" />
     </fragment>
+    <fragment
+        android:id="@+id/first3Fragment"
+        android:name="com.example.myapplication.First3Fragment"
+        android:label="fragment_first3"
+        tools:layout="@layout/fragment_first3" />
 
 </navigation>
