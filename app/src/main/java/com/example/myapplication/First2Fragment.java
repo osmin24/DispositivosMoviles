@@ -31,7 +31,7 @@ public class First2Fragment extends Fragment {
 
         binding.button.setOnClickListener(v ->
                 NavHostFragment.findNavController(First2Fragment.this)
-                        .navigate(R.id.action_First2Fragment_to_first3Fragment)
+                        .navigate(R.id.action_First2Fragment_to_registro)
         );
     }
 

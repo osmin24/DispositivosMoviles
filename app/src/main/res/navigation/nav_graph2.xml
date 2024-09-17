@@ -10,15 +10,15 @@
         android:name="com.example.myapplication.First2Fragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first2">
-
         <action
-            android:id="@+id/action_First2Fragment_to_first3Fragment"
-            app:destination="@id/first3Fragment" />
+            android:id="@+id/action_First2Fragment_to_registro"
+            app:destination="@id/registro"
+            app:popUpTo="@id/First2Fragment" />
     </fragment>
-    <fragment
-        android:id="@+id/first3Fragment"
-        android:name="com.example.myapplication.First3Fragment"
-        android:label="fragment_first3"
-        tools:layout="@layout/fragment_first3" />
+    <activity
+        android:id="@+id/registro"
+        android:name="com.example.myapplication.Registro"
+        android:label="activity_registro"
+        tools:layout="@layout/activity_registro" />
 
 </navigation>
