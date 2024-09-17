@@ -16,4 +16,6 @@
     <string name="Registrar">Registrar</string>
     <string name="name">Nombre</string>
     <string name="apellido">Apellido</string>
+    <string name="email">Email</string>
+
 </resources>
